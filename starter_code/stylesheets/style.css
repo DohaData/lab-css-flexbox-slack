@@ -8,3 +8,351 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #540b51;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #540b51;
+  color: #f3eae2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vv;
+  flex-direction: row;
+}
+
+#logo-container img {
+  height: 5vw;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+#hamburger-container img {
+  height: 4vw;
+  margin-right: 2vw;
+  margin-top: 2vh;
+}
+
+nav div ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 2vh;
+  width: 20vh;
+}
+
+.modile-hidden {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-direction: column;
+  margin-top: 5vw;
+  height: 140vw;
+}
+
+#hero-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vw;
+  margin-top: 10vw;
+}
+
+#hero-section h1 {
+  font-size: 10vw;
+  text-align: center;
+  color: #f3eae2;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#hero-section p {
+  font-size: 3vw;
+  color: #f3eae2;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+#hero-section .yellow-paragraph {
+  color: #ecb12f;
+}
+
+#hero-section .white-paragraph {
+  color: #f3eae2;
+}
+
+#sign-up-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+
+#sign-up-email-button {
+  background-color: #FFFFFF;
+  color: #540b51;
+  font-size: 3vw;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50vh;
+  height: 8vw;
+}
+
+#sign-up-google-button {
+  position: relative;
+  background-color: #4285f4;
+  color: #f3eae2;
+  font-size: 3vw;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50vh;
+  height: 8vw;
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#sign-up-google-button img {
+  height: 5vw;
+  margin-left: 2vw;
+  background-color: #f3eae2;
+}
+
+#sign-up-google-button span {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#partners-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vw;
+  background-color: #f3eae2;
+}
+
+#partners-section p {
+  font-size: 3vw;
+  color: #191817;
+  text-align: center;
+  margin-top: 8vw;
+  text-transform: uppercase;
+}
+
+#partners-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+  margin-left: 0;
+}
+
+#first-class-partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#second-class-partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#partners-section img {
+  height: 10vw;
+  margin: 2vw;
+}
+
+#facts-about-slack-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-color: #FFFFFF;
+}
+
+#facts-about-slack-section > h3 {
+  font-size: 4vw;
+  color: #540b51;
+  text-align: center;
+  font-weight: 600;
+  width: 40vh;
+  line-height: 1.2;
+}
+
+#facts-about-slack-section > p {
+  font-size: 3vw;
+  color: #000000;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  width: 40vh;
+  line-height: 1.2;
+}
+
+#facts-about-slack-section .facts-numbers {
+  font-size: 5vw;
+  color: #540b51;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+#facts-about-slack-section .facts-description {
+  font-size: 2vw;
+  color: #000000;
+  text-align: center;
+  font-weight: 800;
+  width: 20vh;
+}
+
+#try-out-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+#try-out-section h3 {
+  font-size: 4vw;
+  color: #f3eae2;
+  text-align: center;
+  font-weight: 600;
+  width: 30vh;
+  line-height: 1.2;
+}
+
+#try-for-free-button {
+    background-color: #FFFFFF;
+    color: #540b51;
+    font-size: 3vw;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50vh;
+    height: 8vw;
+    margin-top: 2vw;
+}
+
+#talk-to-sales {
+    background-color: #540b51;
+    color: #FFFFFF;
+    font-size: 3vw;
+    font-weight: 400;
+    text-align: center;
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50vh;
+    height: 8vw;
+    margin-top: 2vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+footer hr {
+    width: 80vw;
+    margin: 6vw auto;
+    border: none;
+    border-top: 2px solid #ccc; /* Grey color */
+}
+
+#footer-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 5vh;
+}
+
+#footer-menu li {
+  list-style-type: none;
+  margin-top: 2vw;
+  color: #191817;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#footer-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5vw;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#footer-logos i {
+    font-size: 4vw;
+    margin: 2vw;
+}
+
+#copyrights-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5vw;
+  text-align: center;
+  color: #454245;
+}
+
+
+#copyrights-section small {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #454245;
+  margin-bottom: 4vh;
+}
+  
