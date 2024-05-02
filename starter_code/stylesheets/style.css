@@ -113,7 +113,7 @@ header {
 }
 
 #sign-up-email-button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #540b51;
   font-size: 3vw;
   font-weight: 400;
@@ -123,6 +123,7 @@ header {
   cursor: pointer;
   width: 50vh;
   height: 8vw;
+  text-transform: uppercase;
 }
 
 #sign-up-google-button {
@@ -141,12 +142,15 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-transform: uppercase;
 }
 
 #sign-up-google-button img {
   height: 5vw;
   margin-left: 2vw;
   background-color: #f3eae2;
+  padding: 1vw;
+  border-radius: 5px;
 }
 
 #sign-up-google-button span {
@@ -164,6 +168,7 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 5vw;
+  padding-bottom: 5vw;
   background-color: #f3eae2;
 }
 
@@ -207,7 +212,7 @@ header {
   flex-direction: column;
   padding-top: 5vw;
   padding-bottom: 5vw;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #facts-about-slack-section > h3 {
@@ -265,46 +270,46 @@ header {
 }
 
 #try-for-free-button {
-    background-color: #FFFFFF;
-    color: #540b51;
-    font-size: 3vw;
-    font-weight: 400;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 50vh;
-    height: 8vw;
-    margin-top: 2vw;
+  background-color: #ffffff;
+  color: #540b51;
+  font-size: 3vw;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50vh;
+  height: 8vw;
+  margin-top: 2vw;
 }
 
 #talk-to-sales {
-    background-color: #540b51;
-    color: #FFFFFF;
-    font-size: 3vw;
-    font-weight: 400;
-    text-align: center;
-    border: 0.1rem solid #FFFFFF;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 50vh;
-    height: 8vw;
-    margin-top: 2vw;
+  background-color: #540b51;
+  color: #ffffff;
+  font-size: 3vw;
+  font-weight: 400;
+  text-align: center;
+  border: 0.1rem solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50vh;
+  height: 8vw;
+  margin-top: 2vw;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: 1vw;
   margin-bottom: 1vw;
 }
 
 footer hr {
-    width: 80vw;
-    margin: 6vw auto;
-    border: none;
-    border-top: 2px solid #ccc; /* Grey color */
+  width: 80vw;
+  margin: 6vw auto;
+  border: none;
+  border-top: 2px solid #ccc; /* Grey color */
 }
 
 #footer-menu {
@@ -323,6 +328,10 @@ footer hr {
   font-weight: 600;
 }
 
+#download-link {
+  color: #2e71a6;
+}
+
 #footer-logos {
   display: flex;
   justify-content: space-between;
@@ -334,25 +343,141 @@ footer hr {
 }
 
 #footer-logos i {
-    font-size: 4vw;
-    margin: 2vw;
+  font-size: 4vw;
+  margin: 2vw;
 }
 
 #copyrights-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
   margin-top: 5vw;
   text-align: center;
   color: #454245;
+  margin-bottom: 4vw;
 }
-
 
 #copyrights-section small {
   font-size: 1rem;
   font-weight: 300;
   color: #454245;
-  margin-bottom: 4vh;
 }
-  
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vw;
+    margin-left: 5vh;
+    margin-right: vh;
+  }
+
+  #hero-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vw;
+    width: 40vh;
+    margin-top: 10vw;
+  }
+
+  #hero-section h1 {
+    font-size: 8vw;
+    text-align: left;
+    color: #f3eae2;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  #hero-product-ui-container {
+    width: 60vh;
+    height: 100vh;
+    top: 35%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+  }
+
+  #hero-product-ui-container img {
+    position: absolute;
+    right: -28rem; /* adjust as needed */
+  }
+
+  #sign-up-email-button {
+    font-size: 2vw;
+    width: 50vh;
+    height: 6vw;
+  }
+
+  #sign-up-google-button {
+    font-size: 2vw;
+    width: 50vh;
+    height: 6vw;
+  }
+
+  #partners-section > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-between;
+    margin-top: 5vw;
+    margin-left: 0;
+  }
+
+  #partners-section img {
+    height: 5vw;
+    margin: 1.5vw;
+  }
+
+  #facts-about-slack-section > h3 {
+    width: 80vh;
+    font-size: 3vw;
+  }
+
+  #facts-about-slack-section > p {
+    width: 80vh;
+    font-size: 1.8vw;
+  }
+
+  #facts-about-slack-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #ffffff;
+  }
+
+  #facts-about-slack-section li {
+    margin-left: 8vw;
+  }
+
+  #facts-about-slack-section .facts-numbers {
+    text-align: left;
+  }
+
+  #facts-about-slack-section .facts-description {
+    text-align: left;
+  }
+
+  #try-out-section h3 {
+    width: 80vh;
+  }
+
+  #try-for-free-button {
+    width: 80vh;
+    height: 7vw;
+  }
+  #talk-to-sales {
+    width: 80vh;
+    height: 7vw;
+  }
+  #footer-menu {
+    flex-direction: row;
+  }
+  #copyrights-section {
+    margin-left: 5vh;
+    text-align: left;
+  }
+}
