@@ -363,7 +363,7 @@ footer hr {
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     height: 100vw;
@@ -488,7 +488,7 @@ footer hr {
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     height: 100vw;
@@ -643,6 +643,221 @@ footer hr {
 
   #facts-about-slack-section li {
     margin-left: 8vw;
+  }
+
+  #facts-about-slack-section .facts-numbers {
+    text-align: left;
+  }
+
+  #facts-about-slack-section .facts-description {
+    text-align: left;
+  }
+
+  #try-out-buttons {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  #try-out-section h3 {
+    width: 90vh;
+  }
+
+  #try-out-buttons button {
+    width: 25vh;
+    height: 4vw;
+    font-size: 1.6rem;
+    font-weight: 550;
+  }
+
+  #footer-menu {
+    flex-direction: row;
+  }
+  #copyrights-section {
+    margin-left: 5vh;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80vw;
+    margin-left: 5vh;
+  }
+
+  .modile-hidden {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+      margin-left: 3vh;
+      margin-top: 3vw;
+      font-size: 1.8rem;
+      flex: 1; /* Makes the list grow to fill available space */
+      padding: 0;
+      font-weight: 600;
+  }
+
+  #nav-menu {
+    width: 40vh;
+    margin-left: 3vh;
+    font-weight: 400;
+  }
+
+  #hamburger-container {
+    justify-content: space-around;
+  }
+
+  #nav-buttons {
+    width: 25vh;
+    justify-content: space-around;
+    margin-right: 5vh;
+  }
+    
+  #nav-menu li {
+    margin-left: 4vh;
+  }
+
+  #nav-buttons li {
+    margin-left: 1vh;
+  }
+
+  #search-icon {
+    height: 2vw;
+  }
+
+  #hamburger-icon {
+    display: none;
+  }
+
+  #nav-sign-in-button {
+    width: 8vh;
+  }
+
+  #nav-try-for-free-button {
+    background-color: #ffffff;
+    color: #540b51;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3vw;
+    width: 20vh;
+    text-transform: uppercase;
+  }
+
+  #hero-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vw;
+    width: 40vh;
+    margin-top: 10vw;
+  }
+
+  #hero-section h1 {
+    font-size: 7vw;
+    text-align: left;
+    color: #f3eae2;
+    font-weight: 600;
+    line-height: 1.2;
+    width: 80vh;
+  }
+
+  #hero-section p {
+    text-align: left;
+  }
+
+  #hero-product-ui-container {
+    bottom: -20%;
+    position: relative;
+  }
+
+  #hero-product-ui-container img {
+    width: 100vh;
+  }
+
+/**/
+
+  #sign-up-email-button {
+    font-size: 1.3vw;
+    width: 48vh;
+    height: 6vw;
+  }
+
+  #sign-up-google-button {
+    font-size: 1.3vw;
+    width: 48vh;
+    height: 6vw;
+  }
+
+  #sign-up-section {
+    width: 100vh;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #sign-up-google-button {
+    margin-top: 0vw;
+  }
+
+  #sign-up-google-button span {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+/**/
+
+  #partners-section > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-between;
+    margin-top: 5vw;
+    margin-left: 0;
+  }
+
+  #partners-section img {
+    height: 5vw;
+    margin: 1.5vw;
+  }
+
+  #facts-about-slack-section > h3 {
+    width: 80vh;
+    font-size: 3vw;
+  }
+
+  #facts-about-slack-section > p {
+    width: 80vh;
+    font-size: 1.8vw;
+  }
+
+  #facts-about-slack-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: #ffffff;
+  }
+
+  #facts-about-slack-section li {
+    margin-left: 8vw;
+    width: 40vh;
   }
 
   #facts-about-slack-section .facts-numbers {
