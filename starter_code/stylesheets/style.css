@@ -388,6 +388,10 @@ footer hr {
     line-height: 1.2;
   }
 
+  #hero-section p {
+    text-align: left;
+  }
+
   #hero-product-ui-container {
     width: 60vh;
     height: 100vh;
@@ -571,6 +575,10 @@ footer hr {
     color: #f3eae2;
     font-weight: 600;
     line-height: 1.2;
+  }
+
+  #hero-section p {
+    text-align: left;
   }
 
   #hero-product-ui-container {
