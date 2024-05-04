@@ -25,7 +25,7 @@
       <div id="logo-container">
         <img src="./images/slack-logo.png" alt="Slack logo" />
 
-        <ul class="modile-hidden">
+        <ul class="modile-hidden" id="nav-menu">
           <li>
             <a href="#">Product</a>
           </li>
@@ -43,19 +43,19 @@
 
       <div id="hamburger-container">
         <button>
-          <img src="./images/icon-search.png" alt="Search icon" />
+          <img id="search-icon" src="./images/icon-search.png" alt="Search icon" />
         </button>
 
-        <button>
+        <button id="hamburger-icon">
           <img src="./images/icon-menu.png" alt="Menu icon" />
         </button>
 
-        <ul class="modile-hidden">
+        <ul class="modile-hidden" id="nav-buttons">
           <li>
-            <a href="#">Sign in</a>
+            <button id="nav-sign-in-button">Sign in</button>
           </li>
           <li>
-            <a href="#">Try for free</a>
+            <button id="nav-try-for-free-button">Try for free</button>
           </li>
         </ul>
       </div>
@@ -141,9 +141,9 @@
 
       <section id="try-out-section">
         <h3>Welcome to your new digital HQ</h3>
-
-        <button id="try-for-free-button">Try for free</button>
-        <button id="talk-to-sales">Talk to sales</button>
+        <div id="try-out-buttons">
+          <button id="try-for-free-button">Try for free</button>
+          <button id="talk-to-sales">Talk to sales</button>
       </section>
     </main>
 
